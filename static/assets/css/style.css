@@ -1,0 +1,56 @@
+span {
+  text-transform: capitalize;
+}
+
+#chat-response {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 90vh;
+}
+
+.sidebar.sidebar-dark.accordion.border-custom {
+  border-right: 1px solid #f2f2f2;
+}
+
+.response-system{
+  color: #f2f2f2;
+  padding: 15px;
+}
+
+.response-user{
+  color: #f2f2f2;
+  background-color: rgb(15,150,208);
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.float-right{
+  float: right;
+}
+
+.scrollable{
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px; /* Adjust the width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #333; /* Adjust the background color of the scrollbar track */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #666; /* Adjust the background color of the scrollbar thumb */
+  border-radius: 5px; /* Adjust the border-radius of the scrollbar thumb */
+}
+
+#logo{
+  margin: 20px;
+  height: 80px;
+  width: 150px;
+}
+

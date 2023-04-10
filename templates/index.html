@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dashboard - Brand</title>
+    <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee&amp;display=swap">
+    <link rel="stylesheet" href="static/assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="static/assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body id="page-top" style="min-height: 0;">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-dark p-0 border-custom">
+            <div class="container-fluid d-flex flex-column p-0"><img id="logo" src="/static/assets/img/aicoach.png">
+                <ul class="navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fas fa-tachometer-alt"></i><span>Coach</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user"></i><span>Profile</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-table"></i><span>Activites</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="far fa-user-circle"></i><span>Login</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user-circle"></i><span>Register</span></a></li>
+                </ul>
+                <div id="run-coach">
+                    <button class="btn btn-primary" id="start-coach" type="button" style="background-color: rgb(15,150,208);">Start Coach</button>
+                </div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <div class="container p-0" style="min-height: 100vh;">
+                    <div class="row" style="height: 90vh;">
+                        <div class="col-md-12">
+                            <div id="chat-response" class="bg-dark scrollable custom-scrollbar">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row bg-dark" style="height: 10vh;">
+                        <div class="col col-10 p-0 m-0">
+                            <textarea class="bg-dark" id="user-input" style="width: 100%;height: 100%;padding: 20px;color: #f2f2f2;border-top: 1px solid #f2f2f2;display: block;"></textarea>
+                        </div>
+                        <div class="col col-2 p-0 m-0">
+                            <button class="btn btn-primary" id="user-go" type="button" style="width: 100%;height: 100%;border-radius: 0;background: rgb(15,150,208);">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="static/script.js"></script>
+    <script src="static/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/assets/js/theme.js"></script>
+</body>
+
+</html>
